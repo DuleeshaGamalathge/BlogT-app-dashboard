@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --primary-color: #071952;
+    --secondary-color: #35A29F;
+    /* --secondary-color: #051010; */
+    --third-color: #0B666A;
+    --fourth-color: #97FEED;
+    --body-text-color: #010510;
+    --navbar-footer-color: #d7ecec;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: var(--body-text-color);
+}
+
+.nav-link{
+    color: var(--primary-color);
+}
+.shadow-effect{
+    border: none;
+    box-shadow: 0px 0px 35px -10px rgba(22, 62, 195, 0.3);
+}
+.bg-theme{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.bg-theme-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+small{
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+}
+
+.text-white{
+    color: white;
+}
